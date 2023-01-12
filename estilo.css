@@ -65,7 +65,7 @@ h2{
     background-color:rgb(179, 124, 231) ;
 }
 .card{
-    padding: 25px;
+   justify-content: space-around;
 }
 .card-img-top{
     width: 300px;
