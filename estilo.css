@@ -1,0 +1,99 @@
+
+.navbar{
+    background-color: rgb(144, 92, 193);
+    font-family: 'Maiandra GD', sans-serif;
+    
+    }
+.slider-container img { 
+    height: 600px;
+    max-height: 600px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.navegacionprofesionales{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(190, 154, 223);
+    list-style: none; 
+    display: flex;
+    flex-wrap: wrap;  
+}
+.navpro a{
+    font-family: 'Maiandra GD', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: inline-flex;
+    margin: 10px;
+    }
+.navpro a:hover{
+    color: rgb(111, 4, 111);
+}
+h1{
+    font-family: 'Maiandra GD', sans-serif;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.miradas  h3{
+    font-family: 'Maiandra GD', sans-serif;
+    text-align: center;
+    color:rgb(169, 117, 217) ;
+    padding: 10px;
+}
+.miradas p{
+    text-align: justify;
+    margin: 30px;
+}
+.profesionales {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+h2{
+    font-family: 'Maiandra GD', sans-serif;
+    color:white ;
+    padding: 15px;
+    text-align: center;
+    background-color:rgb(179, 124, 231) ;
+}
+
+.card-img-top{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    border-style:inherit;
+}
+.card-img-top:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.card-body{
+    font-family: 'Maiandra GD', sans-serif;
+    text-align: center;
+}
+footer{
+    font-family: 'Maiandra GD', sans-serif;
+    
+}
+.btn {
+    border-radius: 10%;
+    border-color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a :hover{
+    color: rgb(92, 6, 92);
+    
+}
