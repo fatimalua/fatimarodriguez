@@ -1,20 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.navbar{
+
+.navbar {
     background-color: rgb(144, 92, 193);
     font-family: 'Maiandra GD', sans-serif;
-    
-    }
-.slider-container img { 
+
+}
+
+.slider-container img {
     height: 600px;
     max-height: 600px;
     width: 100%;
     object-fit: cover;
-    
+
 }
-.navegacionprofesionales{
+
+.navegacionprofesionales {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -22,37 +25,43 @@
     justify-content: space-between;
     padding: 10px;
     background-color: rgb(190, 154, 223);
-    list-style: none; 
+    list-style: none;
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
 }
-.navpro a{
+
+.navpro a {
     font-family: 'Maiandra GD', sans-serif;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     display: inline-flex;
     margin: 10px;
-    }
-.navpro a:hover{
+}
+
+.navpro a:hover {
     color: rgb(111, 4, 111);
 }
-h1{
+
+h1 {
     font-family: 'Maiandra GD', sans-serif;
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
 }
-.miradas  h3{
+
+h2 {
     font-family: 'Maiandra GD', sans-serif;
     text-align: center;
-    color:rgb(169, 117, 217) ;
+    color: rgb(169, 117, 217);
     padding: 10px;
 }
-.miradas p{
+
+.miradas p {
     text-align: justify;
     margin: 30px;
 }
+
 .profesionales {
     display: flex;
     flex-wrap: wrap;
@@ -60,48 +69,198 @@ h1{
     justify-content: space-evenly;
     padding: 10px;
 }
-h2{
+
+.miradash1 {
     font-family: 'Maiandra GD', sans-serif;
-    color:white ;
-    padding: 15px;
+    color: white;
+    padding: 10px;
     text-align: center;
-    background-color:rgb(179, 124, 231) ;
+    background-color: rgb(179, 124, 231);
 }
-.card{
+
+.card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 25px;
 }
-.card-img-top{
+
+.card-img-top {
     width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 10%;
-    border-style:inherit;
+    border-style: inherit;
 }
-.card-img-top:hover{
+
+.card-img-top:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-.card-body{
+
+.card-body {
     font-family: 'Maiandra GD', sans-serif;
     text-align: center;
 }
-footer{
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas:
+        "caja1 caja1 caja1 caja2"
+        "caja3 caja4 caja4 caja4"
+        "caja5 caja5 caja5 caja6";
+    padding: 10px;
+
+}
+
+.caja {
+    border: 3px solid rgb(179, 168, 168);
+    margin: 10px;
+    text-align: center;
+}
+
+.caja img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+#caja1 {
+    grid-area: caja1;
+}
+
+#caja1 h1 {
+    font-family: 'Maiandra GD', sans-serif;
+    text-align: center;
+    color: rgb(169, 117, 217);
+    padding: 10px;
+    text-transform: none;
+}
+
+#caja2 {
+    grid-area: caja2;
+}
+
+#caja3 {
+    grid-area: caja3;
+}
+
+#caja4 {
+    grid-area: caja4;
+}
+
+#caja5 {
+    grid-area: caja5;
+}
+
+#caja5 h3 {
+    font-family: 'Maiandra GD', sans-serif;
+    text-align: center;
+    color: rgb(169, 117, 217);
+    padding: 10px;
+    text-transform: none;
+}
+#caja6 {
+    grid-area: caja6;
+}
+
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(/media/ddl2.jpg);
+}
+
+.contactotitulo {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: 'Maiandra GD', sans-serif;
+    text-align: center;
+    color: rgb(216, 213, 220);
+}
+
+.contacto1 {
+    padding: 30px;
+}
+
+.contacto p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+    color: azure;
+    font-size: 15px;
+}
+
+.contacto1 .subtitulo {
+    font-family: 'Maiandra GD', sans-serif;
+    color: rgb(214, 182, 245);
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.mapa {
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+}
+form input{
+        display: flex;
+        justify-content: flex-end;
+}
+form label{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+form li {
+    list-style: none;
+    padding: 5px;
+}
+form button{
+    background-color: rgb(189, 188, 190);
+    color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: blueviolet;
+    font-size: 15px;
     font-family: 'Maiandra GD', sans-serif;
     
 }
+form button:hover{
+    color: antiquewhite;
+    background-color: blueviolet;
+}
+
+footer {
+    font-family: 'Maiandra GD', sans-serif;
+
+}
+
 .btn {
     border-radius: 10%;
     border-color: white;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: white;
 }
-footer a :hover{
+
+footer a :hover {
     color: rgb(92, 6, 92);
-    
+
 }
