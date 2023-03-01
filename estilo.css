@@ -175,7 +175,7 @@ h2 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    background-image: url(/media/ddl2.jpg);
+    background-color: rgb(135, 134, 136);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;}
@@ -272,6 +272,24 @@ footer a :hover {
     color: rgb(92, 6, 92);
 
 }
+.cursos{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color:  rgb(223, 194, 232);
+}
+.cursos h3{
+    margin: auto;
+    padding: 10px;
+    font-family: 'Maiandra GD', sans-serif;
+}
+.horariocurso{
+    font-style: oblique;
+}
+    
+
 
 @media screen and (max-widht: 768) {
     .contenedor {
